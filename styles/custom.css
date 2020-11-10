@@ -1,0 +1,35 @@
+#page_container {
+    display: none;
+}
+
+div.title-div p {
+    text-align: center;
+}
+
+div.title-div span {
+    text-align: center;
+    font-size: 1.5vh !important;
+    font-family: "Times New Roman" !important;
+    color: #333333 !important
+}
+
+.link-span {
+    display: inline-block;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    img.product-img {
+        width: 20vw !important;
+        height: 18vw !important;
+    }
+    .link-span {
+        font-size: 0.6em;
+    }
+    .phoneTopBar img {
+        width: 19vw;
+        height: 20px !important;
+    }
+}
